@@ -1,5 +1,6 @@
 require "nordea/version"
+require "nordea/exchange_rates"
 
 module Nordea
-  # Your code goes here...
+
 end

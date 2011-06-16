@@ -7,11 +7,16 @@ Gem::Specification.new do |s|
   s.version     = Nordea::VERSION
   s.authors     = ["Matias Korhonen"]
   s.email       = ["matias@kiskolabs.com"]
-  s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.homepage    = "http://github.com/k33l0r/nordea"
+  s.summary     = %q{Exchange rates from Nordea Bank}
+  s.description = %q{A Money.gem compatible currency exchange rate implementation for Nordea Bank}
 
   s.rubyforge_project = "nordea"
+  
+  s.add_dependency "money", "~> 3.7.1"
+  
+  s.add_development_dependency "yard"
+  s.add_development_dependency "rspec"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
