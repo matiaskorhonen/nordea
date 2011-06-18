@@ -1,6 +1,7 @@
 require "nordea/version"
 require "nordea/exchange_rates"
 
+# Ruby interface to the Nordea Bank exchange rate data.
 module Nordea
   # Parses the datetime format used in the Nordea data.
   #

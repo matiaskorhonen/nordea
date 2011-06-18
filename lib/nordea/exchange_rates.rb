@@ -5,6 +5,10 @@ require "time"
 require "date"
 
 module Nordea
+  # Fetch and update Excahnge rates from Nordea Bank.
+  #
+  # Parses the custom dataformat used by Nordea into more useful Ruby types and
+  # objects.
   class ExchangeRates
     # URI to the machine readable data file.
     DATA_URI = URI::HTTP.build({
