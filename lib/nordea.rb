@@ -17,7 +17,8 @@ module Nordea
               datetime[6..7].to_i,
               datetime[8..9].to_i,
               datetime[10..11].to_i,
-              datetime[11..12].to_i)
+              datetime[11..12].to_i,
+              "+03:00")
     rescue
       nil
   end
