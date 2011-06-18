@@ -165,7 +165,7 @@ module Nordea
         line_postprocess(hash)
       end
 
-      list_rates = all.keep_if do |rate|
+      list_rates = all.select do |rate|
         rate[:rate_type] == :list
       end
 
