@@ -23,4 +23,10 @@ describe "Nordea::Bank" do
       end
     end
   end
+
+  context "#exchange_rates" do
+    it "is an instance of Nordea::ExchangeRates" do
+      @bank.exchange_rates.should be_an_instance_of(Nordea::ExchangeRates)
+    end
+  end
 end
