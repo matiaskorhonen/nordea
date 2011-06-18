@@ -67,7 +67,7 @@ module Nordea
     #   #                         :buying_rate_for_cash => 1.459,
     #   #                        :selling_rate_for_cash => 1.395,
     #   #                          :direction_of_change => "-",
-    #   #                      :currency_convertability => "K",
+    #   #                      :currency_convertability => true,
     #   #                                    :euro_area => false,
     #   #                           :euro_adoption_date => nil,
     #   #                              :currency_expiry => false,
@@ -134,6 +134,7 @@ module Nordea
       else
         @raw_data ||= fetch_data
       end
+      @raw_data = File.open("/Users/matt/Programming/nordea/spec/support/sample_electronic.dat", "r")
     end
 
     # The data entries as an array of hashes with minimal processing.
@@ -196,6 +197,7 @@ module Nordea
       end
 
       line[:currency_expiry] = (line[:currency_expiry] == "K") ? true : false
+      line[:currency_convertability] = (line[:currency_convertability] == "K") ? true : false
 
       FLOAT_KEYS.each do |key|
         str = line[key]

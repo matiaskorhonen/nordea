@@ -45,11 +45,13 @@ module Nordea
     def currencies(force = true)
       exchange_rates.currencies(force)
     end
-
-    private
+    
+    def money_currencies
+      Money::Currency::TABLE.keys.map { |c| c.to_s.upcase }
+    end
 
     def known_currencies
-      @known_currencies ||= Money::Currency::TABLE.keys.map { |c| c.to_s.upcase }
+      @known_currencies = money_currencies & exchange_rates.currencies.keys
     end
   end
 end
