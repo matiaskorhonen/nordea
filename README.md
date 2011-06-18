@@ -56,6 +56,15 @@ The Money gem integration works in a similar way to the [eu\_central\_bank](http
 
 For more information, read the [documentation](http://rubydoc.info/gems/nordea).
 
+
+Travis CI Build Status
+----------------------
+
+Currently the gem only fully works with Ruby 1.9.2.
+
+[![Build Status](http://travis-ci.org/k33l0r/nordea.png)](http://travis-ci.org/k33l0r/nordea)
+
+
 About the data and data source
 ------------------------------
 
