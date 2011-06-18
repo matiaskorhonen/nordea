@@ -134,7 +134,6 @@ module Nordea
       else
         @raw_data ||= fetch_data
       end
-      @raw_data = File.open("/Users/matt/Programming/nordea/spec/support/sample_electronic.dat", "r")
     end
 
     # The data entries as an array of hashes with minimal processing.
