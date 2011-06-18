@@ -22,7 +22,9 @@ Just like any other gem:
 Usage
 -----
 
-Something, something, something, darkside.
+### With the Money gem
+
+The Money gem integration works in a similar way to the [eu\_central\_bank](https://github.com/RubyMoney/eu_central_bank) library, mostly because I referenced that gem while building this one. A couple of the methods in the Nordea::Bank class are pretty much identical to those in the eu\_central\_bank gem.
 
     nordea_bank = Nordea::Bank.new
     Money.default_bank =  nordea_bank
@@ -39,6 +41,20 @@ Something, something, something, darkside.
     # Update the forex rates
     nordea_bank.update_rates
 
+### Without the Money gem
+
+    exchange_rates = Nordea::ExchangeRates.new
+
+    exchange_rates.currencies
+      #=> returns a hash of currencies
+
+    exchange_rates.currencies(true)
+      #=> returns a hash of currencies, but forces a data update
+
+    exchange_rates.headers
+      #=> returns a hash of the data headers from Nordea
+
+For more information, read the [documentation](http://rubydoc.info/gems/nordea).
 
 About the data and data source
 ------------------------------
@@ -49,7 +65,7 @@ Nordea quotes exchange rates on national banking days at least three times a day
 * at noon at 12.15 and
 * in the afternoon at 16.15 (approximate times).
 
-Useful links:
+### Useful links:
 
 * [More information about Nordea exchange rates](http://j.mp/Nordea_exchange_rates)
 * [More information about the data format](http://j.mp/Rates_for_electronic_processing) [PDF]
