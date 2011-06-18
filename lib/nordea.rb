@@ -1,5 +1,6 @@
-require "nordea/version"
+require "nordea/bank"
 require "nordea/exchange_rates"
+require "nordea/version"
 
 # Ruby interface to the Nordea Bank exchange rate data.
 module Nordea
