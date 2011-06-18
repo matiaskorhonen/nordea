@@ -107,7 +107,7 @@ module Nordea
       if res.code =~ /2\d\d/
         res.body
       else
-        raise "Nasty exception"
+        raise ServerError, "The server did not respond in the manner in which we are accustomed to."
       end
     end
 
@@ -207,4 +207,7 @@ module Nordea
       line
     end
   end
+
+  # The exception that's raised if the server doesn't respond correctly.
+  class ServerError < StandardError; end
 end
