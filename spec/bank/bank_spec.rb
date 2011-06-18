@@ -1,21 +1,23 @@
 require "spec_helper"
 
-describe "Nordea" do
-  describe "::Bank" do
-    before(:each) do
-      stub_request(:get, "http://service.nordea.com/nordea-openpages/fi/lists/currency/elelctronicExchangeFI.dat").
-               to_return(:status => 200, :body => SampleData.raw)
-      @bank = Nordea::Bank.new
-      Money.default_bank = @bank
-    end
+describe "Nordea::Bank" do
+  before(:each) do
+    stub_request(:get, "http://service.nordea.com/nordea-openpages/fi/lists/currency/elelctronicExchangeFI.dat").
+             to_return(:status => 200, :body => SampleData.raw)
+    @bank = Nordea::Bank.new
+    Money.default_bank = @bank
+  end
 
-    it "should return the correct exchange rates using exchange" do
+  context "#exchange" do
+    it "returns the correct exchange rates" do
       @bank.known_currencies.each do |currency|
         @bank.exchange(100, "EUR", currency).cents.should == (SampleData.get_rate(currency) * 100).round
       end
     end
+  end
 
-    it "should return the correct exchange rates using exchange_with" do
+  context "#exchange_with" do
+    it "returns the correct exchange rates" do
       @bank.known_currencies.each do |currency|
         @bank.exchange_with(Money.new(100, "EUR"), currency).cents.should == (SampleData.get_rate(currency) * 100).round
       end
