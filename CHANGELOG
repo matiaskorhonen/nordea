@@ -1,0 +1,7 @@
+2011-06-19 - Matias Korhonen
+  * Version 1.1.0
+  * Fixes time parsing and thus adds support for Ruby 1.8.7, etc.
+
+2011-06-18 - Matias Korhonen
+  * Version 1.0.0
+  * Initial release

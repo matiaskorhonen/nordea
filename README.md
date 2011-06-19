@@ -60,7 +60,7 @@ For more information, read the [documentation](http://rubydoc.info/gems/nordea).
 Travis CI Build Status
 ----------------------
 
-Currently the gem only fully works with Ruby 1.9.2.
+The gem should work with Ruby 1.8.7, Ruby 1.9.2, jRuby, REE, and Rubinius.
 
 [![Build Status](http://travis-ci.org/k33l0r/nordea.png)](http://travis-ci.org/k33l0r/nordea)
 
