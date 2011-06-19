@@ -6,4 +6,4 @@ rvm:
   - rbx
   - ree
 notifications:
-      disable: true
+  disable: true
