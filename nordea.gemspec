@@ -17,7 +17,6 @@ Gem::Specification.new do |s|
   s.add_dependency "tzinfo", "~> 0.3.28"
   
   s.add_development_dependency "awesome_print"
-  s.add_development_dependency "bundler", "~> 1.0.15"
   s.add_development_dependency "rake", "~> 0.9.2"
   s.add_development_dependency "rspec", "~> 2.6.0"
   s.add_development_dependency "simplecov"
