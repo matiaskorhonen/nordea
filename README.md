@@ -1,15 +1,7 @@
 The Nordea Gem
 ==============
 
-     _________________________________ 
-    < Exchange rates from Nordea Bank >
-     --------------------------------- 
-            \   ^__^
-             \  (€€)\_______
-                (__)\       )\/\
-                    ||----w |
-                    ||     ||
-
+Exchange rates from Nordea Bank.
 
 Installation
 ------------
@@ -62,7 +54,7 @@ Travis CI Build Status
 
 The gem should work with Ruby 1.8.7, Ruby 1.9.2, jRuby, REE, and Rubinius.
 
-[![Build Status](http://travis-ci.org/k33l0r/nordea.png)](http://travis-ci.org/k33l0r/nordea) [![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/k33l0r/nordea)
+[![Build Status](https://travis-ci.org/matiaskorhonen/nordea.png?branch=master)](https://travis-ci.org/matiaskorhonen/nordea) [![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/k33l0r/nordea)
 
 
 About the data and data source
