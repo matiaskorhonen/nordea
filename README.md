@@ -1,6 +1,8 @@
 The Nordea Gem
 ==============
 
+[![Build Status](https://travis-ci.org/matiaskorhonen/nordea.png?branch=master)](https://travis-ci.org/matiaskorhonen/nordea) [![Code Climate](https://codeclimate.com/github/k33l0r/nordea.png)](https://codeclimate.com/github/k33l0r/nordea) [![Gem Version](https://badge.fury.io/rb/nordea.png)](http://badge.fury.io/rb/nordea)
+
 Exchange rates from Nordea Bank.
 
 Installation
@@ -49,12 +51,10 @@ The Money gem integration works in a similar way to the [eu\_central\_bank](http
 For more information, read the [documentation](http://rubydoc.info/gems/nordea).
 
 
-Travis CI Build Status
-----------------------
+Ruby compatibility
+------------------
 
 The gem should work with Ruby 1.9.3, Ruby 2.0.0, jRuby, and Rubinius (only Ruby 1.9 is actively targetted).
-
-[![Build Status](https://travis-ci.org/matiaskorhonen/nordea.png?branch=master)](https://travis-ci.org/matiaskorhonen/nordea) [![Code Climate](https://codeclimate.com/github/k33l0r/nordea.png)](https://codeclimate.com/github/k33l0r/nordea)
 
 
 About the data and data source
