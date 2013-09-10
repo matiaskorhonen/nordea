@@ -82,7 +82,7 @@ module Nordea
     #
     # @return [Array<String>] ISO currency codes
     def money_currencies
-      Money::Currency::TABLE.keys.map { |c| c.to_s.upcase }
+      Money::Currency.table.keys.map { |c| c.to_s.upcase }
     end
 
     # List currencies found in the Money gem *and* the Nordea currency data
