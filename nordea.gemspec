@@ -13,8 +13,8 @@ Gem::Specification.new do |s|
 
   s.rubyforge_project = "nordea"
   
-  s.add_dependency "money", "~> 5.1.1"
-  s.add_dependency "tzinfo", "~> 1.0.0"
+  s.add_dependency "money", ">= 5.1.1"
+  s.add_dependency "tzinfo", ">= 0.3.38"
   
   s.add_development_dependency "awesome_print"
   s.add_development_dependency "rake"

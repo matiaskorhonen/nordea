@@ -1,4 +1,8 @@
 2013-09-10 - Matias Korhonen
+  * Version 2.0.1
+  * Relaxes the dependency version requirements
+
+2013-09-10 - Matias Korhonen
   * Version 2.0.0
   * Compatible with Money 5.1.1 and above only
 
