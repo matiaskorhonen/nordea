@@ -1,3 +1,7 @@
+2013-09-10 - Matias Korhonen
+  * Version 2.0.0
+  * Compatible with Money 5.1.1 and above only
+
 2011-06-19 - Matias Korhonen
   * Version 1.1.0
   * Fixes time parsing and thus adds support for Ruby 1.8.7, etc.
