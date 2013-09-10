@@ -6,8 +6,8 @@ Gem::Specification.new do |s|
   s.name        = "nordea"
   s.version     = Nordea::VERSION
   s.authors     = ["Matias Korhonen"]
-  s.email       = ["matias@kiskolabs.com"]
-  s.homepage    = "http://github.com/k33l0r/nordea"
+  s.email       = ["me@matiaskorhonen.fi"]
+  s.homepage    = "http://github.com/matiaskorhonen/nordea"
   s.summary     = %q{Exchange rates from Nordea Bank}
   s.description = %q{A Money.gem compatible currency exchange rate implementation for Nordea Bank}
 
