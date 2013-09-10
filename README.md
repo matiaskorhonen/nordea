@@ -52,7 +52,7 @@ For more information, read the [documentation](http://rubydoc.info/gems/nordea).
 Travis CI Build Status
 ----------------------
 
-The gem should work with Ruby 1.8.7, Ruby 1.9.2, jRuby, REE, and Rubinius.
+The gem should work with Ruby 1.9.3, Ruby 2.0.0, jRuby, and Rubinius (only Ruby 1.9 is actively targetted).
 
 [![Build Status](https://travis-ci.org/matiaskorhonen/nordea.png?branch=master)](https://travis-ci.org/matiaskorhonen/nordea) [![Code Climate](https://codeclimate.com/github/k33l0r/nordea.png)](https://codeclimate.com/github/k33l0r/nordea)
 
@@ -81,6 +81,6 @@ this gem entirely at **your own risk**.
 License
 -------
 
-MIT License. Copyright 2011 Matias Korhonen.
+MIT License. Copyright 2011-2013 Matias Korhonen.
 
 See the LICENSE file for more details.
