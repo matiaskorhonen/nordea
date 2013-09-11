@@ -20,6 +20,14 @@ describe "Nordea::ExchangeRates" do
     end
   end
 
+  describe "#currencies" do
+    it "has the correct data", focus: true do
+      exchange_rates.currencies["EUR"].should == SampleData.currencies["EUR"]
+      exchange_rates.currencies["USD"].should == SampleData.currencies["USD"]
+      exchange_rates.currencies["JPY"].should == SampleData.currencies["JPY"]
+    end
+  end
+
   describe "#records_array" do
     let(:records) do
       exchange_rates.send(:records_array)
@@ -33,18 +41,8 @@ describe "Nordea::ExchangeRates" do
     end
 
     it "has the correct number of records" do
+      puts SampleData.currencies.length
       records.length.should == SampleData.currencies.length
-    end
-
-    it "has the correct data" do
-      records.each do |record|
-        currency = record[:currency_iso_code]
-        sample = SampleData.currencies[currency]
-
-        record.each_pair do |key, value|
-          value.should == sample[key]
-        end
-      end
     end
   end
 

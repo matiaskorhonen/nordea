@@ -36,13 +36,19 @@ module Nordea
     def headers(force = false)
       header_line = lines(force).first
 
+      unpacked = header_line.unpack("A4A3A14A120A9")
+
       headers = {
-        :file_id       => header_line[0..3],      # File ID   = VK01
-        :record_id     => header_line[4..6],      # Record ID = 000
-        :change_time   => header_line[7..20],     # Exchange rate change time
-        :notifications => header_line[21..140],   # Notifications
-        :reserved      => header_line[141..149]   # Reserved
+        :file_id       => unpacked[0], # File ID   = VK01
+        :record_id     => unpacked[1], # Record ID = 000
+        :change_time   => unpacked[2], # Exchange rate change time
+        :notifications => unpacked[3], # Notifications
+        :reserved      => unpacked[4]  # Reserved
       }
+
+      headers.each do |key, value|
+        headers[key] = value.force_encoding("ascii") if value.respond_to?(:force_encoding)
+      end
 
       headers[:change_time] = Nordea.parse_time(headers[:change_time])
       headers[:notifications].strip! if headers[:notifications].respond_to? :strip!
@@ -142,24 +148,26 @@ module Nordea
     # @param [Boolean] force force update
     def records_array(force = false)
       all = lines(force)[1..(lines.length - 1)].map do |line|
+        unpacked = line.unpack("A4A3A14A4A3A3A13A13A13A13A13AAAAx7AA42")
+
         hash = {
-          :file_id                                  => line[0..3],      # File ID (= VK01)
-          :record_id                                => line[4..6],      # Record ID (= 000)
-          :quotation_time                           => line[7..20],     # Quotation date
-          :rate_type                                => line[21..24],    # Rate type ( 0001 = list, 0002 = valuation)
-          :currency_iso_code                        => line[25..27],    # Currency ISO code
-          :counter_currency_iso_code                => line[28..30],    # Counter currency ISO code (= EUR)
-          :middle_rate_for_commercial_transactions  => line[31..43],    # Middle rate for commercial transactions
-          :buying_rate_for_commercial_transactions  => line[44..56],    # Buying rate for commercial transactions
-          :selling_rate_for_commercial_transactions => line[57..69],    # Selling rate for commercial transactions
-          :buying_rate_for_cash                     => line[70..82],    # Buying rate for cash
-          :selling_rate_for_cash                    => line[83..95],    # Selling rate for cash
-          :direction_of_change                      => line[96..96],    # Direction of change from previous value ("+", "-" or blank)
-          :currency_convertability                  => line[97..97],    # K = convertible, E = non-convertible
-          :euro_area                                => line[98..98],    # 1 = euro area currency, 0 = non-euro area currency
-          :euro_adoption_date                       => line[99..99],    # Euro adoption date
-          :currency_expiry                          => line[100..107],  # K = in use, E = not in use
-          :reserved                                 => line[108..149]   # Reserved
+          :file_id                                  => unpacked[0],   # File ID (= VK01)
+          :record_id                                => unpacked[1],   # Record ID (= 000)
+          :quotation_time                           => unpacked[2],   # Quotation date
+          :rate_type                                => unpacked[3],   # Rate type ( 0001 = list, 0002 = valuation)
+          :currency_iso_code                        => unpacked[4],   # Currency ISO code
+          :counter_currency_iso_code                => unpacked[5],   # Counter currency ISO code (= EUR)
+          :middle_rate_for_commercial_transactions  => unpacked[6],   # Middle rate for commercial transactions
+          :buying_rate_for_commercial_transactions  => unpacked[7],   # Buying rate for commercial transactions
+          :selling_rate_for_commercial_transactions => unpacked[8],   # Selling rate for commercial transactions
+          :buying_rate_for_cash                     => unpacked[9],   # Buying rate for cash
+          :selling_rate_for_cash                    => unpacked[10],  # Selling rate for cash
+          :direction_of_change                      => unpacked[11],  # Direction of change from previous value ("+", "-" or blank)
+          :currency_convertability                  => unpacked[12],  # K = convertible, E = non-convertible
+          :euro_area                                => unpacked[13],  # 1 = euro area currency, 0 = non-euro area currency
+          :euro_adoption_date                       => unpacked[14],  # Euro adoption date
+          :currency_expiry                          => unpacked[15],  # K = in use, E = not in use
+          :reserved                                 => unpacked[16]   # Reserved
         }
 
         line_postprocess(hash)
@@ -179,6 +187,11 @@ module Nordea
     # @return [Hash] the same line with some values converted into the
     # expected formats
     def line_postprocess(line)
+      # Forces the values to be ASCII strings
+      line.each do |key, value|
+        line[key] = value.force_encoding("ascii") if value.respond_to?(:force_encoding)
+      end
+
       line[:quotation_time] = Nordea.parse_time(line[:quotation_time])
       line[:reserved].strip! if line[:reserved].respond_to? :strip!
       line[:rate_type] = if line[:rate_type] == "0001"

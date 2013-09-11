@@ -1,9 +1,11 @@
 # encoding: UTF-8
 
+require "yaml"
+
 module SampleData
-  CURRENCIES = Marshal.load(File.open(File.expand_path("../sample_currencies.marshal", __FILE__), "r"))
-  HEADERS = Marshal.load(File.open(File.expand_path("../sample_headers.marshal", __FILE__), "r"))
-  
+  CURRENCIES = YAML.load_file(File.open(File.expand_path("../sample_currencies.yml", __FILE__), "r"))
+  HEADERS =    YAML.load_file(File.open(File.expand_path("../sample_headers.yml", __FILE__), "r"))
+
   def self.raw
     File.open(File.expand_path("../sample_electronic.dat", __FILE__), "r")
   end
