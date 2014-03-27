@@ -12,8 +12,8 @@ module Nordea
   class ExchangeRates
     # URI to the machine readable data file.
     DATA_URI = URI::HTTP.build({
-      :host => "service.nordea.com",
-      :path => "/nordea-openpages/fi/lists/currency/elelctronicExchangeFI.dat"
+      :host => "openpages.nordea.com",
+      :path => "/fi/lists/currency/elelctronicExchangeFI.dat"
     })
 
     # Hash keys for key-value pairs that should be converted into floats.

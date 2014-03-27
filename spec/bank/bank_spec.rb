@@ -6,7 +6,7 @@ describe "Nordea::Bank" do
   end
   
   before(:each) do
-    stub_request(:get, "http://service.nordea.com/nordea-openpages/fi/lists/currency/elelctronicExchangeFI.dat").
+    stub_request(:get, "http://openpages.nordea.com/fi/lists/currency/elelctronicExchangeFI.dat").
              to_return(:status => 200, :body => SampleData.raw)
     Money.default_bank = bank
   end

@@ -6,7 +6,7 @@ describe "Nordea::ExchangeRates" do
   end
   
   before(:each) do
-    stub_request(:get, "http://service.nordea.com/nordea-openpages/fi/lists/currency/elelctronicExchangeFI.dat").
+    stub_request(:get, "http://openpages.nordea.com/fi/lists/currency/elelctronicExchangeFI.dat").
              to_return(:status => 200, :body => SampleData.raw)
   end
 
@@ -21,7 +21,7 @@ describe "Nordea::ExchangeRates" do
   end
 
   describe "#currencies" do
-    it "has the correct data", focus: true do
+    it "has the correct data" do
       exchange_rates.currencies["EUR"].should == SampleData.currencies["EUR"]
       exchange_rates.currencies["USD"].should == SampleData.currencies["USD"]
       exchange_rates.currencies["JPY"].should == SampleData.currencies["JPY"]
@@ -41,7 +41,6 @@ describe "Nordea::ExchangeRates" do
     end
 
     it "has the correct number of records" do
-      puts SampleData.currencies.length
       records.length.should == SampleData.currencies.length
     end
   end
@@ -68,7 +67,7 @@ describe "Nordea::ExchangeRates" do
     end
 
     it "raises an exception if the request is not successful" do
-      stub_request(:get, "http://service.nordea.com/nordea-openpages/fi/lists/currency/elelctronicExchangeFI.dat").
+      stub_request(:get, "http://openpages.nordea.com/fi/lists/currency/elelctronicExchangeFI.dat").
                to_return(:status => 404, :body => SampleData.raw)
       expect { exchange_rates.send(:fetch_data) }.to raise_error Nordea::ServerError
     end
