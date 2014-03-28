@@ -1,3 +1,8 @@
+2014-03-28 - Matias Korhonen
+  * Version 2.0.2
+  * Fixes the Nordea data URL
+  * Ensures compatibility with Money 6.0+
+
 2013-09-10 - Matias Korhonen
   * Version 2.0.1
   * Relaxes the dependency version requirements
