@@ -8,22 +8,22 @@ rvm:
 notifications:
   disable: true
 gemfile:
-  - gemfiles/money-5.1.gemfile
-  - gemfiles/money-6.0.gemfile
-  - gemfiles/money-head.gemfile
+  - money-5.1.gemfile
+  - money-6.0.gemfile
+  - money-head.gemfile
 matrix:
   allow_failures:
     - gemfile: gemfiles/money-head.gemfile
   exclude:
     - rvm: 1.9.3
-      gemfile: gemfiles/money-5.1.gemfile
+      gemfile: money-5.1.gemfile
     - rvm: jruby-19mode
-      gemfile: gemfiles/money-5.1.gemfile
+      gemfile: money-5.1.gemfile
     - rvm: rbx-19mode
-      gemfile: gemfiles/money-5.1.gemfile
+      gemfile: money-5.1.gemfile
     - rvm: 1.9.3
-      gemfile: gemfiles/money-head.gemfile
+      gemfile: money-head.gemfile
     - rvm: jruby-19mode
-      gemfile: gemfiles/money-head.gemfile
+      gemfile: money-head.gemfile
     - rvm: rbx-19mode
-      gemfile: gemfiles/money-head.gemfile
+      gemfile: money-head.gemfile
