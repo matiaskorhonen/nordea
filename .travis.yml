@@ -4,7 +4,7 @@ rvm:
   - 1.9.3
   - 2.1.1
   - jruby-19mode
-  - rbx-2.1.1
+  - rbx
 notifications:
   disable: true
 gemfile:
@@ -19,11 +19,11 @@ matrix:
       gemfile: money-5.1.gemfile
     - rvm: jruby-19mode
       gemfile: money-5.1.gemfile
-    - rvm: rbx-19mode
+    - rvm: rbx
       gemfile: money-5.1.gemfile
     - rvm: 1.9.3
       gemfile: money-head.gemfile
     - rvm: jruby-19mode
       gemfile: money-head.gemfile
-    - rvm: rbx-19mode
+    - rvm: rbx
       gemfile: money-head.gemfile
