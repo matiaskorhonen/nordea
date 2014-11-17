@@ -1,24 +1,27 @@
 # encoding: UTF-8
 
-require "yaml"
+require 'yaml'
 
 module SampleData
-  CURRENCIES = YAML.load_file(File.open(File.expand_path("../sample_currencies.yml", __FILE__), "r"))
-  HEADERS =    YAML.load_file(File.open(File.expand_path("../sample_headers.yml", __FILE__), "r"))
+  CURRENCIES = YAML.load_file(File.open(File.expand_path('../sample_currencies.yml', __FILE__), 'r'))
+  HEADERS    = YAML.load_file(File.open(File.expand_path('../sample_headers.yml', __FILE__), 'r'))
+  extend self
 
-  def self.raw
-    File.open(File.expand_path("../sample_electronic.dat", __FILE__), "r")
-  end
+  class << self
+    def raw
+      File.open(File.expand_path('../sample_electronic.dat', __FILE__), 'r')
+    end
 
-  def self.currencies
-    CURRENCIES
-  end
+    def currencies
+      CURRENCIES
+    end
 
-  def self.get_rate(currency)
-    CURRENCIES[currency][:middle_rate_for_commercial_transactions]
-  end
+    def get_rate(currency)
+      CURRENCIES[currency][:middle_rate_for_commercial_transactions]
+    end
 
-  def self.headers
-    HEADERS
+    def headers
+      HEADERS
+    end
   end
 end
