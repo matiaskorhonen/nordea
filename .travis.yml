@@ -6,8 +6,8 @@ rvm:
   - jruby-19mode
   - rbx-2
 gemfile:
-  - gemfiles/money_5.1.gemfile
-  - gemfiles/money_6.0.gemfile
+  - gemfiles/money_6.1.gemfile
+  - gemfiles/money_6.2.gemfile
   - gemfiles/money_head.gemfile
 matrix:
   allow_failures:

@@ -2,6 +2,7 @@
   * Version 2.1
 	* Code refactoring
 	* Add support for load rates from cache
+	* Remove support for Money 5.x
 2014-03-28 - Matias Korhonen
   * Version 2.0.2
   * Fixes the Nordea data URL

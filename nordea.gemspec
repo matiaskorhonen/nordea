@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.summary     = 'Exchange rates from Nordea Bank'
   s.description = 'A Money.gem compatible currency exchange rate implementation for Nordea Bank'
 
-  s.add_dependency 'money', '>= 5.1.1'
+  s.add_dependency 'money', '>= 6.0.0'
   s.add_dependency 'tzinfo', '>= 0.3.38'
 
   s.add_development_dependency 'rake'
