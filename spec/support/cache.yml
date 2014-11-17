@@ -1,0 +1,2906 @@
+---
+:currencies:
+  EUR:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 1999-01-01 05:30:00.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: EUR
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 1.0
+    :buying_rate_for_commercial_transactions: 1.0
+    :selling_rate_for_commercial_transactions: 1.0
+    :buying_rate_for_cash: 1.0
+    :selling_rate_for_cash: 1.0
+    :direction_of_change: "+"
+    :currency_convertability: true
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  USD:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 
+    :rate_type: :list
+    :currency_iso_code: USD
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 1.4448
+    :buying_rate_for_commercial_transactions: 1.4598
+    :selling_rate_for_commercial_transactions: 1.4298
+    :buying_rate_for_cash: 1.4768
+    :selling_rate_for_cash: 1.4128
+    :direction_of_change: "-"
+    :currency_convertability: true
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  JPY:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 
+    :rate_type: :list
+    :currency_iso_code: JPY
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 115.91
+    :buying_rate_for_commercial_transactions: 117.91
+    :selling_rate_for_commercial_transactions: 113.91
+    :buying_rate_for_cash: 120.01
+    :selling_rate_for_cash: 111.81
+    :direction_of_change: "-"
+    :currency_convertability: true
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  GBP:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 
+    :rate_type: :list
+    :currency_iso_code: GBP
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 0.881
+    :buying_rate_for_commercial_transactions: 0.891
+    :selling_rate_for_commercial_transactions: 0.871
+    :buying_rate_for_cash: 0.901
+    :selling_rate_for_cash: 0.861
+    :direction_of_change: "-"
+    :currency_convertability: true
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  SEK:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 
+    :rate_type: :list
+    :currency_iso_code: SEK
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 9.1183
+    :buying_rate_for_commercial_transactions: 9.2183
+    :selling_rate_for_commercial_transactions: 9.0183
+    :buying_rate_for_cash: 9.3233
+    :selling_rate_for_cash: 8.9133
+    :direction_of_change: "+"
+    :currency_convertability: true
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  NOK:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 
+    :rate_type: :list
+    :currency_iso_code: NOK
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 7.7965
+    :buying_rate_for_commercial_transactions: 7.8965
+    :selling_rate_for_commercial_transactions: 7.6965
+    :buying_rate_for_cash: 7.9765
+    :selling_rate_for_cash: 7.6165
+    :direction_of_change: "-"
+    :currency_convertability: true
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  DKK:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 
+    :rate_type: :list
+    :currency_iso_code: DKK
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 7.459
+    :buying_rate_for_commercial_transactions: 7.4915
+    :selling_rate_for_commercial_transactions: 7.4265
+    :buying_rate_for_cash: 7.617
+    :selling_rate_for_cash: 7.301
+    :direction_of_change: "+"
+    :currency_convertability: true
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  CHF:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 
+    :rate_type: :list
+    :currency_iso_code: CHF
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 1.2116
+    :buying_rate_for_commercial_transactions: 1.2241
+    :selling_rate_for_commercial_transactions: 1.1991
+    :buying_rate_for_cash: 1.2416
+    :selling_rate_for_cash: 1.1816
+    :direction_of_change: "-"
+    :currency_convertability: true
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  EEK:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-01-01 09:23:31.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: EEK
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 15.6466
+    :buying_rate_for_commercial_transactions: 15.6466
+    :selling_rate_for_commercial_transactions: 15.6466
+    :buying_rate_for_cash: 15.6466
+    :selling_rate_for_cash: 15.6466
+    :direction_of_change: "+"
+    :currency_convertability: true
+    :euro_area: true
+    :euro_adoption_date: 
+    :currency_expiry: false
+    :reserved: ''
+  LVL:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 
+    :rate_type: :list
+    :currency_iso_code: LVL
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 0.7086
+    :buying_rate_for_commercial_transactions: 0.7185
+    :selling_rate_for_commercial_transactions: 0.6987
+    :buying_rate_for_cash: 0.7306
+    :selling_rate_for_cash: 0.6866
+    :direction_of_change: "-"
+    :currency_convertability: true
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  LTL:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 
+    :rate_type: :list
+    :currency_iso_code: LTL
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 3.4528
+    :buying_rate_for_commercial_transactions: 3.4768
+    :selling_rate_for_commercial_transactions: 3.4288
+    :buying_rate_for_cash: 3.5628
+    :selling_rate_for_cash: 3.3428
+    :direction_of_change: "+"
+    :currency_convertability: true
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  CAD:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 
+    :rate_type: :list
+    :currency_iso_code: CAD
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 1.4074
+    :buying_rate_for_commercial_transactions: 1.4224
+    :selling_rate_for_commercial_transactions: 1.3924
+    :buying_rate_for_cash: 1.4404
+    :selling_rate_for_cash: 1.3744
+    :direction_of_change: "-"
+    :currency_convertability: true
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  HKD:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 
+    :rate_type: :list
+    :currency_iso_code: HKD
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 11.2456
+    :buying_rate_for_commercial_transactions: 11.4556
+    :selling_rate_for_commercial_transactions: 11.0356
+    :buying_rate_for_cash: 11.6856
+    :selling_rate_for_cash: 10.6656
+    :direction_of_change: "-"
+    :currency_convertability: true
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  AUD:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 
+    :rate_type: :list
+    :currency_iso_code: AUD
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 1.3573
+    :buying_rate_for_commercial_transactions: 1.3773
+    :selling_rate_for_commercial_transactions: 1.3373
+    :buying_rate_for_cash: 1.4173
+    :selling_rate_for_cash: 1.2973
+    :direction_of_change: "+"
+    :currency_convertability: true
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  NZD:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 
+    :rate_type: :list
+    :currency_iso_code: NZD
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 1.7663
+    :buying_rate_for_commercial_transactions: 1.7828
+    :selling_rate_for_commercial_transactions: 1.7498
+    :buying_rate_for_cash: 1.8363
+    :selling_rate_for_cash: 1.6563
+    :direction_of_change: "+"
+    :currency_convertability: true
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  ZAR:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 
+    :rate_type: :list
+    :currency_iso_code: ZAR
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 9.754
+    :buying_rate_for_commercial_transactions: 10.034
+    :selling_rate_for_commercial_transactions: 9.474
+    :buying_rate_for_cash: 10.154
+    :selling_rate_for_cash: 9.224
+    :direction_of_change: "-"
+    :currency_convertability: true
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  MTL:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 
+    :rate_type: :list
+    :currency_iso_code: MTL
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 0.4293
+    :buying_rate_for_commercial_transactions: 0.4293
+    :selling_rate_for_commercial_transactions: 0.4293
+    :buying_rate_for_cash: 0.4293
+    :selling_rate_for_cash: 0.4293
+    :direction_of_change: "-"
+    :currency_convertability: true
+    :euro_area: true
+    :euro_adoption_date: 
+    :currency_expiry: false
+    :reserved: ''
+  SAR:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 
+    :rate_type: :list
+    :currency_iso_code: SAR
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 5.41945
+    :buying_rate_for_commercial_transactions: 5.49145
+    :selling_rate_for_commercial_transactions: 5.34745
+    :buying_rate_for_cash: 5.68945
+    :selling_rate_for_cash: 5.14445
+    :direction_of_change: "-"
+    :currency_convertability: true
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  MAD:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 
+    :rate_type: :list
+    :currency_iso_code: MAD
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 11.3376
+    :buying_rate_for_commercial_transactions: 11.6626
+    :selling_rate_for_commercial_transactions: 11.0126
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "-"
+    :currency_convertability: true
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  KWD:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 
+    :rate_type: :list
+    :currency_iso_code: KWD
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 0.39635
+    :buying_rate_for_commercial_transactions: 0.40135
+    :selling_rate_for_commercial_transactions: 0.39135
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "-"
+    :currency_convertability: true
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  AED:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 
+    :rate_type: :list
+    :currency_iso_code: AED
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 5.30825
+    :buying_rate_for_commercial_transactions: 5.35925
+    :selling_rate_for_commercial_transactions: 5.25725
+    :buying_rate_for_cash: 5.57025
+    :selling_rate_for_cash: 5.02325
+    :direction_of_change: "-"
+    :currency_convertability: true
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  SGD:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 
+    :rate_type: :list
+    :currency_iso_code: SGD
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 1.7804
+    :buying_rate_for_commercial_transactions: 1.8104
+    :selling_rate_for_commercial_transactions: 1.7504
+    :buying_rate_for_cash: 1.8524
+    :selling_rate_for_cash: 1.6934
+    :direction_of_change: "+"
+    :currency_convertability: true
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  MYR:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 
+    :rate_type: :list
+    :currency_iso_code: MYR
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 4.3792
+    :buying_rate_for_commercial_transactions: 0.0
+    :selling_rate_for_commercial_transactions: 0.0
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "-"
+    :currency_convertability: true
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  INR:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 
+    :rate_type: :list
+    :currency_iso_code: INR
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 64.637
+    :buying_rate_for_commercial_transactions: 68.637
+    :selling_rate_for_commercial_transactions: 60.637
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "-"
+    :currency_convertability: true
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  CYP:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 
+    :rate_type: :list
+    :currency_iso_code: CYP
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 0.585274
+    :buying_rate_for_commercial_transactions: 0.585274
+    :selling_rate_for_commercial_transactions: 0.585274
+    :buying_rate_for_cash: 0.585274
+    :selling_rate_for_cash: 0.585274
+    :direction_of_change: "+"
+    :currency_convertability: true
+    :euro_area: true
+    :euro_adoption_date: 
+    :currency_expiry: false
+    :reserved: ''
+  RUB:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 
+    :rate_type: :list
+    :currency_iso_code: RUB
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 40.2888
+    :buying_rate_for_commercial_transactions: 42.7888
+    :selling_rate_for_commercial_transactions: 37.7888
+    :buying_rate_for_cash: 43.3888
+    :selling_rate_for_cash: 36.7888
+    :direction_of_change: "-"
+    :currency_convertability: true
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  CZK:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 
+    :rate_type: :list
+    :currency_iso_code: CZK
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 24.118
+    :buying_rate_for_commercial_transactions: 24.478
+    :selling_rate_for_commercial_transactions: 23.758
+    :buying_rate_for_cash: 25.168
+    :selling_rate_for_cash: 23.068
+    :direction_of_change: "+"
+    :currency_convertability: true
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  SKK:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2008-12-31 22:00:00.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: SKK
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 30.126
+    :buying_rate_for_commercial_transactions: 30.126
+    :selling_rate_for_commercial_transactions: 30.126
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: true
+    :euro_area: true
+    :euro_adoption_date: 
+    :currency_expiry: false
+    :reserved: ''
+  PLN:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 
+    :rate_type: :list
+    :currency_iso_code: PLN
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 3.9302
+    :buying_rate_for_commercial_transactions: 4.0302
+    :selling_rate_for_commercial_transactions: 3.8302
+    :buying_rate_for_cash: 4.1002
+    :selling_rate_for_cash: 3.7602
+    :direction_of_change: "-"
+    :currency_convertability: true
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  HUF:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 
+    :rate_type: :list
+    :currency_iso_code: HUF
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 264.51
+    :buying_rate_for_commercial_transactions: 268.51
+    :selling_rate_for_commercial_transactions: 260.51
+    :buying_rate_for_cash: 273.96
+    :selling_rate_for_cash: 253.96
+    :direction_of_change: "-"
+    :currency_convertability: true
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  THB:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 
+    :rate_type: :list
+    :currency_iso_code: THB
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 44.009
+    :buying_rate_for_commercial_transactions: 45.009
+    :selling_rate_for_commercial_transactions: 43.009
+    :buying_rate_for_cash: 46.509
+    :selling_rate_for_cash: 41.509
+    :direction_of_change: "+"
+    :currency_convertability: true
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  KRW:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 
+    :rate_type: :list
+    :currency_iso_code: KRW
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 1564.04
+    :buying_rate_for_commercial_transactions: 1591.04
+    :selling_rate_for_commercial_transactions: 1537.04
+    :buying_rate_for_cash: 1636.04
+    :selling_rate_for_cash: 1465.04
+    :direction_of_change: "-"
+    :currency_convertability: true
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  TND:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 
+    :rate_type: :list
+    :currency_iso_code: TND
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 1.978943
+    :buying_rate_for_commercial_transactions: 1.988943
+    :selling_rate_for_commercial_transactions: 1.968943
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "-"
+    :currency_convertability: true
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  XAU:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 
+    :rate_type: :list
+    :currency_iso_code: XAU
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 0.095157
+    :buying_rate_for_commercial_transactions: 0.106157
+    :selling_rate_for_commercial_transactions: 0.084157
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: true
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  XYP:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 
+    :rate_type: :list
+    :currency_iso_code: XYP
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 4.8753
+    :buying_rate_for_commercial_transactions: 4.8883
+    :selling_rate_for_commercial_transactions: 4.8623
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "-"
+    :currency_convertability: true
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  UBF:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 
+    :rate_type: :list
+    :currency_iso_code: UBF
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 4.7455
+    :buying_rate_for_commercial_transactions: 4.7585
+    :selling_rate_for_commercial_transactions: 4.7325
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "-"
+    :currency_convertability: true
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  KOR:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 
+    :rate_type: :list
+    :currency_iso_code: KOR
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 5.3301
+    :buying_rate_for_commercial_transactions: 5.3461
+    :selling_rate_for_commercial_transactions: 5.3141
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "-"
+    :currency_convertability: true
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  KOX:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 
+    :rate_type: :list
+    :currency_iso_code: KOX
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 4.6599
+    :buying_rate_for_commercial_transactions: 4.6749
+    :selling_rate_for_commercial_transactions: 4.6449
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "-"
+    :currency_convertability: true
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  XDR:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 
+    :rate_type: :list
+    :currency_iso_code: XDR
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 0.8943
+    :buying_rate_for_commercial_transactions: 0.8953
+    :selling_rate_for_commercial_transactions: 0.8933
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "-"
+    :currency_convertability: true
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  FIM:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 1999-01-01 09:14:44.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: FIM
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 5.94573
+    :buying_rate_for_commercial_transactions: 5.94573
+    :selling_rate_for_commercial_transactions: 5.94573
+    :buying_rate_for_cash: 5.94573
+    :selling_rate_for_cash: 5.94573
+    :direction_of_change: ''
+    :currency_convertability: true
+    :euro_area: true
+    :euro_adoption_date: 
+    :currency_expiry: false
+    :reserved: ''
+  DEM:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 1999-01-01 09:14:44.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: DEM
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 1.95583
+    :buying_rate_for_commercial_transactions: 1.95583
+    :selling_rate_for_commercial_transactions: 1.95583
+    :buying_rate_for_cash: 1.95583
+    :selling_rate_for_cash: 1.95583
+    :direction_of_change: "+"
+    :currency_convertability: true
+    :euro_area: true
+    :euro_adoption_date: 
+    :currency_expiry: false
+    :reserved: ''
+  FRF:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 1999-01-01 09:14:44.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: FRF
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 6.55957
+    :buying_rate_for_commercial_transactions: 6.55957
+    :selling_rate_for_commercial_transactions: 6.55957
+    :buying_rate_for_cash: 6.55957
+    :selling_rate_for_cash: 6.55957
+    :direction_of_change: "+"
+    :currency_convertability: true
+    :euro_area: true
+    :euro_adoption_date: 
+    :currency_expiry: false
+    :reserved: ''
+  NLG:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 1999-01-01 09:14:44.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: NLG
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 2.20371
+    :buying_rate_for_commercial_transactions: 2.20371
+    :selling_rate_for_commercial_transactions: 2.20371
+    :buying_rate_for_cash: 2.20371
+    :selling_rate_for_cash: 2.20371
+    :direction_of_change: "+"
+    :currency_convertability: true
+    :euro_area: true
+    :euro_adoption_date: 
+    :currency_expiry: false
+    :reserved: ''
+  ITL:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 1999-01-01 09:14:44.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: ITL
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 1936.27
+    :buying_rate_for_commercial_transactions: 1936.27
+    :selling_rate_for_commercial_transactions: 1936.27
+    :buying_rate_for_cash: 1936.27
+    :selling_rate_for_cash: 1936.27
+    :direction_of_change: "+"
+    :currency_convertability: true
+    :euro_area: true
+    :euro_adoption_date: 
+    :currency_expiry: false
+    :reserved: ''
+  ATS:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 1999-01-01 09:14:44.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: ATS
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 13.7603
+    :buying_rate_for_commercial_transactions: 13.7603
+    :selling_rate_for_commercial_transactions: 13.7603
+    :buying_rate_for_cash: 13.7603
+    :selling_rate_for_cash: 13.7603
+    :direction_of_change: "+"
+    :currency_convertability: true
+    :euro_area: true
+    :euro_adoption_date: 
+    :currency_expiry: false
+    :reserved: ''
+  ESP:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 1999-01-01 09:14:44.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: ESP
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 166.386
+    :buying_rate_for_commercial_transactions: 166.386
+    :selling_rate_for_commercial_transactions: 166.386
+    :buying_rate_for_cash: 166.386
+    :selling_rate_for_cash: 166.386
+    :direction_of_change: "+"
+    :currency_convertability: true
+    :euro_area: true
+    :euro_adoption_date: 
+    :currency_expiry: false
+    :reserved: ''
+  IEP:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 1999-01-01 09:14:44.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: IEP
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 0.787564
+    :buying_rate_for_commercial_transactions: 0.787564
+    :selling_rate_for_commercial_transactions: 0.787564
+    :buying_rate_for_cash: 0.787564
+    :selling_rate_for_cash: 0.787564
+    :direction_of_change: "+"
+    :currency_convertability: true
+    :euro_area: true
+    :euro_adoption_date: 
+    :currency_expiry: false
+    :reserved: ''
+  BEF:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 1999-01-01 09:14:44.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: BEF
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 40.3399
+    :buying_rate_for_commercial_transactions: 40.3399
+    :selling_rate_for_commercial_transactions: 40.3399
+    :buying_rate_for_cash: 40.3399
+    :selling_rate_for_cash: 40.3399
+    :direction_of_change: "+"
+    :currency_convertability: true
+    :euro_area: true
+    :euro_adoption_date: 
+    :currency_expiry: false
+    :reserved: ''
+  LUF:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 1999-01-01 09:14:44.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: LUF
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 40.3399
+    :buying_rate_for_commercial_transactions: 40.3399
+    :selling_rate_for_commercial_transactions: 40.3399
+    :buying_rate_for_cash: 40.3399
+    :selling_rate_for_cash: 40.3399
+    :direction_of_change: "+"
+    :currency_convertability: true
+    :euro_area: true
+    :euro_adoption_date: 
+    :currency_expiry: false
+    :reserved: ''
+  PTE:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 1999-01-01 09:14:44.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: PTE
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 200.482
+    :buying_rate_for_commercial_transactions: 200.482
+    :selling_rate_for_commercial_transactions: 200.482
+    :buying_rate_for_cash: 200.482
+    :selling_rate_for_cash: 200.482
+    :direction_of_change: "+"
+    :currency_convertability: true
+    :euro_area: true
+    :euro_adoption_date: 
+    :currency_expiry: false
+    :reserved: ''
+  GRD:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2000-12-30 07:15:50.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: GRD
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 340.75
+    :buying_rate_for_commercial_transactions: 340.75
+    :selling_rate_for_commercial_transactions: 340.75
+    :buying_rate_for_cash: 340.75
+    :selling_rate_for_cash: 340.75
+    :direction_of_change: "-"
+    :currency_convertability: true
+    :euro_area: true
+    :euro_adoption_date: 
+    :currency_expiry: false
+    :reserved: ''
+  ALL:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: ALL
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 142.3
+    :buying_rate_for_commercial_transactions: 142.3
+    :selling_rate_for_commercial_transactions: 142.3
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "-"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  ANG:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: ANG
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 2.5284
+    :buying_rate_for_commercial_transactions: 2.5284
+    :selling_rate_for_commercial_transactions: 2.5284
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  ARS:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: ARS
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 5.91
+    :buying_rate_for_commercial_transactions: 5.91
+    :selling_rate_for_commercial_transactions: 5.91
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  AWG:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: AWG
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 2.5717
+    :buying_rate_for_commercial_transactions: 2.5717
+    :selling_rate_for_commercial_transactions: 2.5717
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  BBD:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: BBD
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 2.8752
+    :buying_rate_for_commercial_transactions: 2.8752
+    :selling_rate_for_commercial_transactions: 2.8752
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  BDT:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: BDT
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 106.7707
+    :buying_rate_for_commercial_transactions: 106.7707
+    :selling_rate_for_commercial_transactions: 106.7707
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  BGN:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 
+    :rate_type: :list
+    :currency_iso_code: BGN
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 1.9558
+    :buying_rate_for_commercial_transactions: 2.0058
+    :selling_rate_for_commercial_transactions: 1.9058
+    :buying_rate_for_cash: 2.0358
+    :selling_rate_for_cash: 1.8758
+    :direction_of_change: "+"
+    :currency_convertability: true
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  BHD:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: BHD
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 0.5447
+    :buying_rate_for_commercial_transactions: 0.5447
+    :selling_rate_for_commercial_transactions: 0.5447
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  BIF:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: BIF
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 1748.208
+    :buying_rate_for_commercial_transactions: 1748.208
+    :selling_rate_for_commercial_transactions: 1748.208
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  BMD:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: BMD
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 1.4448
+    :buying_rate_for_commercial_transactions: 1.4448
+    :selling_rate_for_commercial_transactions: 1.4448
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  BND:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: BND
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 1.7797
+    :buying_rate_for_commercial_transactions: 1.7797
+    :selling_rate_for_commercial_transactions: 1.7797
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  BOB:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: BOB
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 10.0558
+    :buying_rate_for_commercial_transactions: 10.0558
+    :selling_rate_for_commercial_transactions: 10.0558
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  BAM:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: BAM
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 1.9547
+    :buying_rate_for_commercial_transactions: 1.9547
+    :selling_rate_for_commercial_transactions: 1.9547
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  BRL:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: BRL
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 2.2871
+    :buying_rate_for_commercial_transactions: 2.2871
+    :selling_rate_for_commercial_transactions: 2.2871
+    :buying_rate_for_cash: 2.422
+    :selling_rate_for_cash: 2.158
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  BSD:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: BSD
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 1.4448
+    :buying_rate_for_commercial_transactions: 1.4448
+    :selling_rate_for_commercial_transactions: 1.4448
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  BTN:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: BTN
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 64.6259
+    :buying_rate_for_commercial_transactions: 64.6259
+    :selling_rate_for_commercial_transactions: 64.6259
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  BWP:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: BWP
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 9.3818
+    :buying_rate_for_commercial_transactions: 9.3818
+    :selling_rate_for_commercial_transactions: 9.3818
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  BZD:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: BZD
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 2.8152
+    :buying_rate_for_commercial_transactions: 2.8152
+    :selling_rate_for_commercial_transactions: 2.8152
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  CLP:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: CLP
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 673.1323
+    :buying_rate_for_commercial_transactions: 673.1323
+    :selling_rate_for_commercial_transactions: 673.1323
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  CNY:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: CNY
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 9.3609
+    :buying_rate_for_commercial_transactions: 9.3609
+    :selling_rate_for_commercial_transactions: 9.3609
+    :buying_rate_for_cash: 9.8213
+    :selling_rate_for_cash: 8.9213
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  CNH:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: CNH
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 9.3536
+    :buying_rate_for_commercial_transactions: 9.3536
+    :selling_rate_for_commercial_transactions: 9.3536
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  COP:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: COP
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 2566.5427
+    :buying_rate_for_commercial_transactions: 2566.5427
+    :selling_rate_for_commercial_transactions: 2566.5427
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  CRC:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: CRC
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 726.301
+    :buying_rate_for_commercial_transactions: 726.301
+    :selling_rate_for_commercial_transactions: 726.301
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  CUP:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: CUP
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 1.4539
+    :buying_rate_for_commercial_transactions: 1.4539
+    :selling_rate_for_commercial_transactions: 1.4539
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "-"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  CVE:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: CVE
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 110.3105
+    :buying_rate_for_commercial_transactions: 110.3105
+    :selling_rate_for_commercial_transactions: 110.3105
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  DJF:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: DJF
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 252.6233
+    :buying_rate_for_commercial_transactions: 252.6233
+    :selling_rate_for_commercial_transactions: 252.6233
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  DOP:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: DOP
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 54.3245
+    :buying_rate_for_commercial_transactions: 54.3245
+    :selling_rate_for_commercial_transactions: 54.3245
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  DZD:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: DZD
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 103.4432
+    :buying_rate_for_commercial_transactions: 103.4432
+    :selling_rate_for_commercial_transactions: 103.4432
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  EGP:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: EGP
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 8.5857
+    :buying_rate_for_commercial_transactions: 8.5857
+    :selling_rate_for_commercial_transactions: 8.5857
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  ETB:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: ETB
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 24.3694
+    :buying_rate_for_commercial_transactions: 24.3694
+    :selling_rate_for_commercial_transactions: 24.3694
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  FJD:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: FJD
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 2.5184
+    :buying_rate_for_commercial_transactions: 2.5184
+    :selling_rate_for_commercial_transactions: 2.5184
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  GHS:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: GHS
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 2.1881
+    :buying_rate_for_commercial_transactions: 2.1881
+    :selling_rate_for_commercial_transactions: 2.1881
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  GIP:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: GIP
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 2.3708
+    :buying_rate_for_commercial_transactions: 2.3708
+    :selling_rate_for_commercial_transactions: 2.3708
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  GMD:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: GMD
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 38.3594
+    :buying_rate_for_commercial_transactions: 38.3594
+    :selling_rate_for_commercial_transactions: 38.3594
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "-"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  GNF:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: GNF
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 9586.248
+    :buying_rate_for_commercial_transactions: 9586.248
+    :selling_rate_for_commercial_transactions: 9586.248
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  GTQ:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: GTQ
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 11.2637
+    :buying_rate_for_commercial_transactions: 11.2637
+    :selling_rate_for_commercial_transactions: 11.2637
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  GYD:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: GYD
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 294.0024
+    :buying_rate_for_commercial_transactions: 294.0024
+    :selling_rate_for_commercial_transactions: 294.0024
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  HNL:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: HNL
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 27.2995
+    :buying_rate_for_commercial_transactions: 27.2995
+    :selling_rate_for_commercial_transactions: 27.2995
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  HTG:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: HTG
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 58.2977
+    :buying_rate_for_commercial_transactions: 58.2977
+    :selling_rate_for_commercial_transactions: 58.2977
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  HRK:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 
+    :rate_type: :list
+    :currency_iso_code: HRK
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 7.3995
+    :buying_rate_for_commercial_transactions: 7.5995
+    :selling_rate_for_commercial_transactions: 7.1995
+    :buying_rate_for_cash: 7.6375
+    :selling_rate_for_cash: 7.1555
+    :direction_of_change: "+"
+    :currency_convertability: true
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  IDR:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: IDR
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 12333.84
+    :buying_rate_for_commercial_transactions: 12333.84
+    :selling_rate_for_commercial_transactions: 12333.84
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  ILS:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: ILS
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 4.9061
+    :buying_rate_for_commercial_transactions: 4.9061
+    :selling_rate_for_commercial_transactions: 4.9061
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "-"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  IQD:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: IQD
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 1683.192
+    :buying_rate_for_commercial_transactions: 1683.192
+    :selling_rate_for_commercial_transactions: 1683.192
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  IRR:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: IRR
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 16769.7936
+    :buying_rate_for_commercial_transactions: 16769.7936
+    :selling_rate_for_commercial_transactions: 16769.7936
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "-"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  JMD:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: JMD
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 122.4468
+    :buying_rate_for_commercial_transactions: 122.4468
+    :selling_rate_for_commercial_transactions: 122.4468
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  JOD:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: JOD
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 1.0229
+    :buying_rate_for_commercial_transactions: 1.0229
+    :selling_rate_for_commercial_transactions: 1.0229
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  KES:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: KES
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 129.0929
+    :buying_rate_for_commercial_transactions: 129.0929
+    :selling_rate_for_commercial_transactions: 129.0929
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  KHR:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: KHR
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 5916.456
+    :buying_rate_for_commercial_transactions: 5916.456
+    :selling_rate_for_commercial_transactions: 5916.456
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  KMF:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: KMF
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 494.844
+    :buying_rate_for_commercial_transactions: 494.844
+    :selling_rate_for_commercial_transactions: 494.844
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  KPW:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: KPW
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 187.824
+    :buying_rate_for_commercial_transactions: 187.824
+    :selling_rate_for_commercial_transactions: 187.824
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  KYD:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: KYD
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 1.1703
+    :buying_rate_for_commercial_transactions: 1.1703
+    :selling_rate_for_commercial_transactions: 1.1703
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  LAK:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: LAK
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 11571.4032
+    :buying_rate_for_commercial_transactions: 11571.4032
+    :selling_rate_for_commercial_transactions: 11571.4032
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  LBP:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: LBP
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 2168.6448
+    :buying_rate_for_commercial_transactions: 2168.6448
+    :selling_rate_for_commercial_transactions: 2168.6448
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  LKR:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: LKR
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 158.2056
+    :buying_rate_for_commercial_transactions: 158.2056
+    :selling_rate_for_commercial_transactions: 158.2056
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  LRD:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: LRD
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 104.0256
+    :buying_rate_for_commercial_transactions: 104.0256
+    :selling_rate_for_commercial_transactions: 104.0256
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  LSL:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: LSL
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 9.7163
+    :buying_rate_for_commercial_transactions: 9.7163
+    :selling_rate_for_commercial_transactions: 9.7163
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  LYD:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: LYD
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 1.73
+    :buying_rate_for_commercial_transactions: 1.73
+    :selling_rate_for_commercial_transactions: 1.73
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  MMK:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: MMK
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 9.2612
+    :buying_rate_for_commercial_transactions: 9.2612
+    :selling_rate_for_commercial_transactions: 9.2612
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  MNT:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: MNT
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 1791.552
+    :buying_rate_for_commercial_transactions: 1791.552
+    :selling_rate_for_commercial_transactions: 1791.552
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  MOP:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: MOP
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 11.57
+    :buying_rate_for_commercial_transactions: 11.57
+    :selling_rate_for_commercial_transactions: 11.57
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  MRO:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: MRO
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 394.9361
+    :buying_rate_for_commercial_transactions: 394.9361
+    :selling_rate_for_commercial_transactions: 394.9361
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  MUR:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: MUR
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 39.732
+    :buying_rate_for_commercial_transactions: 39.732
+    :selling_rate_for_commercial_transactions: 39.732
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  MVR:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: MVR
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 21.7587
+    :buying_rate_for_commercial_transactions: 21.7587
+    :selling_rate_for_commercial_transactions: 21.7587
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  MWK:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: MWK
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 216.72
+    :buying_rate_for_commercial_transactions: 216.72
+    :selling_rate_for_commercial_transactions: 216.72
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  MXN:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 
+    :rate_type: :list
+    :currency_iso_code: MXN
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 17.1014
+    :buying_rate_for_commercial_transactions: 17.9014
+    :selling_rate_for_commercial_transactions: 16.3014
+    :buying_rate_for_cash: 17.8614
+    :selling_rate_for_cash: 15.9114
+    :direction_of_change: "-"
+    :currency_convertability: true
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  MZN:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: MZN
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 40.4544
+    :buying_rate_for_commercial_transactions: 40.4544
+    :selling_rate_for_commercial_transactions: 40.4544
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "-"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  NAD:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: NAD
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 9.7562
+    :buying_rate_for_commercial_transactions: 9.7562
+    :selling_rate_for_commercial_transactions: 9.7562
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  NGN:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: NGN
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 226.3713
+    :buying_rate_for_commercial_transactions: 226.3713
+    :selling_rate_for_commercial_transactions: 226.3713
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  NIO:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: NIO
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 32.3166
+    :buying_rate_for_commercial_transactions: 32.3166
+    :selling_rate_for_commercial_transactions: 32.3166
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  NPR:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: NPR
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 103.4332
+    :buying_rate_for_commercial_transactions: 103.4332
+    :selling_rate_for_commercial_transactions: 103.4332
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  OMR:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: OMR
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 0.5562
+    :buying_rate_for_commercial_transactions: 0.5562
+    :selling_rate_for_commercial_transactions: 0.5562
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  PAB:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: PAB
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 1.4448
+    :buying_rate_for_commercial_transactions: 1.4448
+    :selling_rate_for_commercial_transactions: 1.4448
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  PEN:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: PEN
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 3.9905
+    :buying_rate_for_commercial_transactions: 3.9905
+    :selling_rate_for_commercial_transactions: 3.9905
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  PGK:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: PGK
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 3.1402
+    :buying_rate_for_commercial_transactions: 3.1402
+    :selling_rate_for_commercial_transactions: 3.1402
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "-"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  PHP:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: PHP
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 62.499
+    :buying_rate_for_commercial_transactions: 62.499
+    :selling_rate_for_commercial_transactions: 62.499
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  PKR:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: PKR
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 123.8916
+    :buying_rate_for_commercial_transactions: 123.8916
+    :selling_rate_for_commercial_transactions: 123.8916
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  PYG:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: PYG
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 5735.856
+    :buying_rate_for_commercial_transactions: 5735.856
+    :selling_rate_for_commercial_transactions: 5735.856
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  QAR:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: QAR
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 5.2607
+    :buying_rate_for_commercial_transactions: 5.2607
+    :selling_rate_for_commercial_transactions: 5.2607
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  RON:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 
+    :rate_type: :list
+    :currency_iso_code: RON
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 4.1725
+    :buying_rate_for_commercial_transactions: 4.2725
+    :selling_rate_for_commercial_transactions: 4.0725
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "-"
+    :currency_convertability: true
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  SBD:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: SBD
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 9.8554
+    :buying_rate_for_commercial_transactions: 9.8554
+    :selling_rate_for_commercial_transactions: 9.8554
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "-"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  RSD:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 
+    :rate_type: :list
+    :currency_iso_code: RSD
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 100.255
+    :buying_rate_for_commercial_transactions: 104.255
+    :selling_rate_for_commercial_transactions: 96.255
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: true
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  SCR:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: SCR
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 17.377
+    :buying_rate_for_commercial_transactions: 17.377
+    :selling_rate_for_commercial_transactions: 17.377
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  SDG:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: SDG
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 3.8579
+    :buying_rate_for_commercial_transactions: 3.8579
+    :selling_rate_for_commercial_transactions: 3.8579
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  SIT:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2007-01-02 14:05:53.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: SIT
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 239.64
+    :buying_rate_for_commercial_transactions: 239.64
+    :selling_rate_for_commercial_transactions: 239.64
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "-"
+    :currency_convertability: true
+    :euro_area: true
+    :euro_adoption_date: 
+    :currency_expiry: false
+    :reserved: ''
+  SLL:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: SLL
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 6140.4
+    :buying_rate_for_commercial_transactions: 6140.4
+    :selling_rate_for_commercial_transactions: 6140.4
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "-"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  SOS:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: SOS
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 2253.888
+    :buying_rate_for_commercial_transactions: 2253.888
+    :selling_rate_for_commercial_transactions: 2253.888
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  STD:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: STD
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 24511.032
+    :buying_rate_for_commercial_transactions: 24511.032
+    :selling_rate_for_commercial_transactions: 24511.032
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "-"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  SVC:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: SVC
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 12.6312
+    :buying_rate_for_commercial_transactions: 12.6312
+    :selling_rate_for_commercial_transactions: 12.6312
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  SYP:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: SYP
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 68.5558
+    :buying_rate_for_commercial_transactions: 68.5558
+    :selling_rate_for_commercial_transactions: 68.5558
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  SZL:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: SZL
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 9.7192
+    :buying_rate_for_commercial_transactions: 9.7192
+    :selling_rate_for_commercial_transactions: 9.7192
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  TOP:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: TOP
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 2.3924
+    :buying_rate_for_commercial_transactions: 2.3924
+    :selling_rate_for_commercial_transactions: 2.3924
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  TRY:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 
+    :rate_type: :list
+    :currency_iso_code: TRY
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 2.282
+    :buying_rate_for_commercial_transactions: 2.432
+    :selling_rate_for_commercial_transactions: 2.132
+    :buying_rate_for_cash: 2.457
+    :selling_rate_for_cash: 2.057
+    :direction_of_change: "+"
+    :currency_convertability: true
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  TTD:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: TTD
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 9.1745
+    :buying_rate_for_commercial_transactions: 9.1745
+    :selling_rate_for_commercial_transactions: 9.1745
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  TWD:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: TWD
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 41.6608
+    :buying_rate_for_commercial_transactions: 41.6608
+    :selling_rate_for_commercial_transactions: 41.6608
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  TZS:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: TZS
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 2256.7776
+    :buying_rate_for_commercial_transactions: 2256.7776
+    :selling_rate_for_commercial_transactions: 2256.7776
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  UAH:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: UAH
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 11.5367
+    :buying_rate_for_commercial_transactions: 11.5367
+    :selling_rate_for_commercial_transactions: 11.5367
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  UGX:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: UGX
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 3474.744
+    :buying_rate_for_commercial_transactions: 3474.744
+    :selling_rate_for_commercial_transactions: 3474.744
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  UYU:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: UYU
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 26.5121
+    :buying_rate_for_commercial_transactions: 26.5121
+    :selling_rate_for_commercial_transactions: 26.5121
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  VEF:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: VEF
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 6.1972
+    :buying_rate_for_commercial_transactions: 6.1972
+    :selling_rate_for_commercial_transactions: 6.1972
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  VND:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: VND
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 29676.192
+    :buying_rate_for_commercial_transactions: 29676.192
+    :selling_rate_for_commercial_transactions: 29676.192
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  VUV:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: VUV
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 126.29
+    :buying_rate_for_commercial_transactions: 126.29
+    :selling_rate_for_commercial_transactions: 126.29
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "-"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  WST:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: WST
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 3.1165
+    :buying_rate_for_commercial_transactions: 3.1165
+    :selling_rate_for_commercial_transactions: 3.1165
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  XAF:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: XAF
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 656.0981
+    :buying_rate_for_commercial_transactions: 656.0981
+    :selling_rate_for_commercial_transactions: 656.0981
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  XCD:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: XCD
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 3.8576
+    :buying_rate_for_commercial_transactions: 3.8576
+    :selling_rate_for_commercial_transactions: 3.8576
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  XOF:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: XOF
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 658.7855
+    :buying_rate_for_commercial_transactions: 658.7855
+    :selling_rate_for_commercial_transactions: 658.7855
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  XPF:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: XPF
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 118.5314
+    :buying_rate_for_commercial_transactions: 118.5314
+    :selling_rate_for_commercial_transactions: 118.5314
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "-"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  YER:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: YER
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 308.1036
+    :buying_rate_for_commercial_transactions: 308.1036
+    :selling_rate_for_commercial_transactions: 308.1036
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  ZMK:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: ZMK
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 6949.488
+    :buying_rate_for_commercial_transactions: 6949.488
+    :selling_rate_for_commercial_transactions: 6949.488
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  KZT:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 
+    :rate_type: :list
+    :currency_iso_code: KZT
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 210.82
+    :buying_rate_for_commercial_transactions: 217.82
+    :selling_rate_for_commercial_transactions: 203.82
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "-"
+    :currency_convertability: true
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+  UZS:
+    :file_id: VK01
+    :record_id: '001'
+    :quotation_time: 2011-06-14 12:53:32.000000000 Z
+    :rate_type: :list
+    :currency_iso_code: UZS
+    :counter_currency_iso_code: EUR
+    :middle_rate_for_commercial_transactions: 2458.7317
+    :buying_rate_for_commercial_transactions: 2458.7317
+    :selling_rate_for_commercial_transactions: 2458.7317
+    :buying_rate_for_cash: 0.0
+    :selling_rate_for_cash: 0.0
+    :direction_of_change: "+"
+    :currency_convertability: false
+    :euro_area: false
+    :euro_adoption_date: 
+    :currency_expiry: true
+    :reserved: ''
+:headers:
+  :file_id: VK01
+  :record_id: '000'
+  :change_time: 
+  :notifications: Listakurssit alle 40.000 eur maksuille 14.06.11 15:47
+  :reserved: ''

@@ -1,29 +1,15 @@
-script: "bundle exec rake spec"
 language: ruby
 rvm:
-  - 1.9.3
-  - 2.1.1
+  - 2.0.0
+  - 2.1
+  - ruby-head
   - jruby-19mode
-  - rbx
-notifications:
-  disable: true
+  - rbx-2
 gemfile:
-  - money-5.1.gemfile
-  - money-6.0.gemfile
-  - money-head.gemfile
+  - gemfiles/money_5.1.gemfile
+  - gemfiles/money_6.0.gemfile
+  - gemfiles/money_head.gemfile
 matrix:
   allow_failures:
-    - gemfile: gemfiles/money-head.gemfile
-  exclude:
-    - rvm: 1.9.3
-      gemfile: money-5.1.gemfile
-    - rvm: jruby-19mode
-      gemfile: money-5.1.gemfile
-    - rvm: rbx
-      gemfile: money-5.1.gemfile
-    - rvm: 1.9.3
-      gemfile: money-head.gemfile
-    - rvm: jruby-19mode
-      gemfile: money-head.gemfile
-    - rvm: rbx
-      gemfile: money-head.gemfile
+    - rvm: ruby-head
+bundler_args: --without local_development

@@ -23,6 +23,9 @@ The Money gem integration works in a similar way to the [eu\_central\_bank](http
     nordea_bank = Nordea::Bank.new
     Money.default_bank =  nordea_bank
 
+    # Load rates
+    nordea_bank.update_rates
+
     # Exchange 100 EUR to USD
     nordea_bank.exchange(100, "EUR", "USD")
 
@@ -32,8 +35,15 @@ The Money gem integration works in a similar way to the [eu\_central\_bank](http
     # Exchange 100 Canadian dollars to US dollars
     nordea_bank.exchange_with(Money.new(100, "CAD"), "USD")
 
-    # Update the forex rates
+    # Update the rates to latest
     nordea_bank.update_rates
+
+    # Save rates to cache file
+    cache = '/tmp/nordea_cache.yml'
+    nordea_bank.save_rates(cache)
+
+    # Load rates from cache file
+    nordea_bank.update_rates(cache)
 
 ### Without the Money gem
 
@@ -49,12 +59,6 @@ The Money gem integration works in a similar way to the [eu\_central\_bank](http
       #=> returns a hash of the data headers from Nordea
 
 For more information, read the [documentation](http://rubydoc.info/gems/nordea).
-
-
-Ruby compatibility
-------------------
-
-The gem should work with Ruby 1.9.3, Ruby 2.0.0, jRuby, and Rubinius (only Ruby 1.9 is actively targetted).
 
 
 About the data and data source

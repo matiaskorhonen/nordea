@@ -1,5 +1,5 @@
-# @version 2.0.2
+# @version 2.1.0
 module Nordea
   # The gem version
-  VERSION = "2.0.2"
+  VERSION = '2.1.0'
 end
