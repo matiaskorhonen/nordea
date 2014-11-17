@@ -13,3 +13,6 @@ matrix:
   allow_failures:
     - rvm: ruby-head
 bundler_args: --without local_development
+script:
+  - mkdir tmp
+  - bundle exec rake
