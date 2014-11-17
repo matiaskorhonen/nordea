@@ -75,7 +75,7 @@ module Nordea
     private
 
     def force_update
-      lines = fetch_data.lines
+      lines = fetch_data.lines.to_a
       load_headers(lines.shift)
       @currencies = load_currencies(lines)
     end
