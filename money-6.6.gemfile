@@ -3,4 +3,4 @@ source "http://rubygems.org"
 # Specify your gem's dependencies in nordea.gemspec
 gemspec
 
-gem "money", "~> 6.0.0"
+gem "money", "~> 6.6.0"
