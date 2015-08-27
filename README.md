@@ -54,7 +54,7 @@ For more information, read the [documentation](http://rubydoc.info/gems/nordea).
 Ruby compatibility
 ------------------
 
-The gem should work with Ruby 1.9.3, Ruby 2.0.0, jRuby, and Rubinius (only Ruby 1.9 is actively targetted).
+The gem should work with MRI Ruby (only Ruby 2.2 and 2.1 are actively targetted) and jRuby (in 1.9 mode).
 
 
 About the data and data source
