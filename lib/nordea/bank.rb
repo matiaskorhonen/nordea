@@ -77,7 +77,7 @@ module Nordea
     def currencies(force = false)
       exchange_rates.currencies(force)
     end
-    
+
     # List all currencies known to the money gem
     #
     # @return [Array<String>] ISO currency codes
