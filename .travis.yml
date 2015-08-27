@@ -1,29 +1,21 @@
-script: "bundle exec rake spec"
-sudo: false
 language: ruby
 rvm:
   - 2.2.3
   - 2.1.7
   - jruby-19mode
+gemfile:
+  - money-6.5.gemfile
+  - money-6.6.gemfile
+  - money-head.gemfile
+sudo: false
 notifications:
   disable: true
-gemfile:
-  - money-5.1.gemfile
-  - money-6.0.gemfile
-  - money-head.gemfile
+script: "bundle exec rake spec"
 matrix:
   allow_failures:
     - gemfile: gemfiles/money-head.gemfile
   exclude:
-    - rvm: 1.9.3
-      gemfile: money-5.1.gemfile
-    - rvm: jruby-19mode
-      gemfile: money-5.1.gemfile
-    - rvm: rbx
-      gemfile: money-5.1.gemfile
-    - rvm: 1.9.3
-      gemfile: money-head.gemfile
     - rvm: jruby-19mode
       gemfile: money-head.gemfile
-    - rvm: rbx
+    - rvm: 2.1.7
       gemfile: money-head.gemfile
