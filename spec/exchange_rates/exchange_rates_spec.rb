@@ -4,7 +4,7 @@ describe "Nordea::ExchangeRates" do
   let(:exchange_rates) do
     Nordea::ExchangeRates.new
   end
-  
+
   before(:each) do
     stub_request(:get, "http://openpages.nordea.com/fi/lists/currency/elelctronicExchangeFI.dat").
              to_return(:status => 200, :body => SampleData.raw)
@@ -12,19 +12,21 @@ describe "Nordea::ExchangeRates" do
 
   describe "#lines" do
     it "returns the raw data as an array of lines" do
-      exchange_rates.send(:lines).should be_kind_of(Array)
+      expect(exchange_rates.send(:lines)).to be_kind_of(Array)
     end
 
     it "returns the correct number of lines" do
-      exchange_rates.send(:lines).count.should == 221
+      expect(exchange_rates.send(:lines).count).to eq 221
     end
   end
 
   describe "#currencies" do
     it "has the correct data" do
-      exchange_rates.currencies["EUR"].should == SampleData.currencies["EUR"]
-      exchange_rates.currencies["USD"].should == SampleData.currencies["USD"]
-      exchange_rates.currencies["JPY"].should == SampleData.currencies["JPY"]
+      currencies = exchange_rates.currencies
+
+      expect(currencies["EUR"]).to eq SampleData.currencies["EUR"]
+      expect(currencies["USD"]).to eq SampleData.currencies["USD"]
+      expect(currencies["JPY"]).to eq SampleData.currencies["JPY"]
     end
   end
 
@@ -34,14 +36,14 @@ describe "Nordea::ExchangeRates" do
     end
 
     it "returns an array of hashes" do
-      records.should be_kind_of(Array)
+      expect(records).to be_kind_of(Array)
       records.each do |record|
-        record.should be_kind_of(Hash)
+        expect(record).to be_kind_of(Hash)
       end
     end
 
     it "has the correct number of records" do
-      records.length.should == SampleData.currencies.length
+      expect(records.length).to eq SampleData.currencies.length
     end
   end
 
@@ -51,19 +53,19 @@ describe "Nordea::ExchangeRates" do
     end
 
     it "returns a hash" do
-      headers.should be_kind_of(Hash)
+      expect(headers).to be_kind_of(Hash)
     end
 
     it "has the correct data" do
       headers.each_pair do |key,value|
-        value.should == SampleData.headers[key]
+        expect(value).to eq SampleData.headers[key]
       end
     end
   end
 
   describe "#fetch_data" do
     it "returns the raw data from the server if the request is successful" do
-      exchange_rates.send(:fetch_data).should == SampleData.raw.read
+      expect(exchange_rates.send(:fetch_data)).to eq SampleData.raw.read
     end
 
     it "raises an exception if the request is not successful" do
