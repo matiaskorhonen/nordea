@@ -1,7 +1,7 @@
 The Nordea Gem
 ==============
 
-[![Build Status](https://travis-ci.org/matiaskorhonen/nordea.png?branch=master)](https://travis-ci.org/matiaskorhonen/nordea) [![Code Climate](https://codeclimate.com/github/k33l0r/nordea.png)](https://codeclimate.com/github/k33l0r/nordea) [![Gem Version](https://badge.fury.io/rb/nordea.png)](http://badge.fury.io/rb/nordea)
+[![Build Status](https://travis-ci.org/matiaskorhonen/nordea.png?branch=master)](https://travis-ci.org/matiaskorhonen/nordea) [![Code Climate](https://codeclimate.com/github/matiaskorhonen/nordea.png)](https://codeclimate.com/github/matiaskorhonen/nordea) [![Gem Version](https://badge.fury.io/rb/nordea.svg)](http://badge.fury.io/rb/nordea)
 
 Exchange rates from Nordea Bank.
 
